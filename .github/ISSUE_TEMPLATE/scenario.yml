@@ -1,0 +1,23 @@
+name: Scenario proposal
+description: Propose planning content after the online alpha is validated.
+title: "[Scenario]: "
+labels: ["scenario"]
+body:
+  - type: input
+    id: planning-question
+    attributes:
+      label: Central planning question
+    validations:
+      required: true
+  - type: textarea
+    id: stakeholders
+    attributes:
+      label: Stakeholders and legitimate competing needs
+    validations:
+      required: true
+  - type: textarea
+    id: choices
+    attributes:
+      label: Consequential choices
+    validations:
+      required: true

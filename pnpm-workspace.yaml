@@ -1,0 +1,12 @@
+packages:
+  - apps/*
+  - packages/*
+  - content/*
+
+allowBuilds:
+  esbuild: true
+  workerd: true
+
+onlyBuiltDependencies:
+  - esbuild
+  - workerd

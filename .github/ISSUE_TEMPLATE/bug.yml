@@ -1,0 +1,35 @@
+name: Bug report
+description: Report incorrect game, room, or interface behavior.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Surface
+      options:
+        - Host console
+        - Public display
+        - Player phone
+        - Room joining
+        - Game rules
+        - Deployment
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Do not include room recovery links, cookies, or personal information.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device

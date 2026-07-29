@@ -1,0 +1,32 @@
+{
+  "name": "@plans-and-parcels/game",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "deploy": "wrangler deploy",
+    "dev": "vite dev",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@plans-and-parcels/copperline": "workspace:*",
+    "@plans-and-parcels/game-core": "workspace:*",
+    "qrcode": "^1.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.12.4",
+    "@cloudflare/workers-types": "^4.20250726.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.6",
+    "vitest": "^3.2.4",
+    "wrangler": "^4.26.1"
+  }
+}

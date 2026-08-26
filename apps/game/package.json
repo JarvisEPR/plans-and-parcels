@@ -18,15 +18,15 @@
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "^1.12.4",
-    "@cloudflare/workers-types": "^4.20250726.0",
+    "@cloudflare/vite-plugin": "^1.53.1",
+    "@cloudflare/workers-types": "^5.20260823.1",
     "@types/qrcode": "^1.5.5",
-    "@types/react": "^19.1.9",
-    "@types/react-dom": "^19.1.7",
-    "@vitejs/plugin-react": "^4.7.0",
-    "typescript": "^5.8.3",
-    "vite": "^7.0.6",
-    "vitest": "^3.2.4",
-    "wrangler": "^4.26.1"
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.1.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11",
+    "wrangler": "^4.125.0"
   }
 }

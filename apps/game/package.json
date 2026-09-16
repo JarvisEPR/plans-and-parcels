@@ -14,14 +14,14 @@
     "@plans-and-parcels/copperline": "workspace:*",
     "@plans-and-parcels/game-core": "workspace:*",
     "qrcode": "^1.5.4",
-    "react": "^19.1.1",
+    "react": "^19.3.0",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.12.4",
     "@cloudflare/workers-types": "^4.20250726.0",
     "@types/qrcode": "^1.5.5",
-    "@types/react": "^19.1.9",
+    "@types/react": "^19.3.0",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^4.7.0",
     "typescript": "^5.8.3",
